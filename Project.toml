@@ -1,0 +1,19 @@
+name = "GraphGenRefImpl"
+uuid = "8ab544fe-ebf7-4e65-879c-aadf265f0354"
+authors = ["Cocoa <cocoa@brainsat.work>"]
+version = "0.1.0"
+
+[deps]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Graphs = "1.12.0"
+SparseArrays = "1.11.0"
+
+[targets]
+test = ["Test"]
+
